@@ -1,0 +1,122 @@
+body {
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+
+}
+
+
+
+nav {
+	position: fixed;
+	display: flex;
+	top: 0;
+	padding: 23px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+
+}
+
+.menu {
+	position: relative;
+	left: 250px;
+	margin: 5px;
+
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+
+}
+
+li {
+	background-color: #fff;
+	margin: 23px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.94em;
+	color: #00416d;
+	font-style: normal;
+	text-align: left;
+	line-height: 0.8em;
+	letter-spacing: 0em;
+	border: 1px solid #00416d;
+	border-radius: 25px;
+	width: 100px;
+	height: 40px;
+
+}
+
+.logo {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin-top: 166px;
+	left: 400px;
+}
+
+.Home {
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 0.75em;
+	letter-spacing: 0em;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+}
+
+.Home img {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sobre div{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+
+}
+
+
+}
+
+.sobre h1 {
+	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
+	font-size: 1.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+
+}
+
+.sobre p {
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 0.75em;
+	letter-spacing: 0em;
+
+}
+
