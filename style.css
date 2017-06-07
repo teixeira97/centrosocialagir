@@ -15,9 +15,18 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 3;
 
-
-
+}
+ 
+p {
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height:0.75em;
+	letter-spacing:0em;
 }
 
 .menu {
@@ -38,7 +47,8 @@ ul {
 
 li {
 	background-color: #fff;
-	margin: 23px;
+	margin: 11.5px;
+	position: relative;
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
@@ -52,51 +62,67 @@ li {
 	letter-spacing: 0em;
 	border: 1px solid #00416d;
 	border-radius: 25px;
-	width: 100px;
-	height: 40px;
+	width: 125px;
+	height: 25px;
+	
+
 
 }
 
-.logo {
+.Home img {
 	display: flex;
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	margin-top: 166px;
-	left: 400px;
+	margin: 166px;
+	left: 150px;
 }
 
 .Home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+
+
+
+.Home p {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 22.69%;
+	top: 70px;
+	left: 0px;
+	margin: 1.46%;
 	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
 	font-size: 0.88em;
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
-	line-height: 0.75em;
-	letter-spacing: 0em;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
+	line-height:1.4em;
+	letter-spacing:0em;
 
-}
-
-.Home img {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .sobre div{
 	position: absolute;
 	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
 	flex-direction: column;
 	background-color: #fff;
+	height: 65%;
+	width: 41.65%;
+	top: 680px;
+	left: 715px;
+	border-radius: 25px;
+	margin: 38px;
+
 
 }
 
-
-}
 
 .sobre h1 {
 	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
@@ -106,6 +132,9 @@ li {
 	text-align: left;
 	line-height: 1.61em;
 	letter-spacing: 0em;
+	margin: 38px;
+
+	
 
 }
 
@@ -115,8 +144,66 @@ li {
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
-	line-height: 0.75em;
+	line-height: 1.4em;
 	letter-spacing: 0em;
+	margin: 38px;
 
 }
 
+.ações {
+	margin: 87px;
+}
+
+.ações h1 {
+
+	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
+	font-size: 1.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+}
+
+.ação1 h2 {
+	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
+	font-size: 1.56em;
+	color: #95989a;
+	font-style: normal;
+	line-height: 1.34em;
+	letter-spacing: 0em;
+}
+
+.ação1 img {
+	position: relative;
+	display: flex;
+	width: 54.47%;
+	height: 60%;
+	left: 500px;
+	top: -50px;
+}
+
+.ação1 p {
+	position: relative;
+	display: flex;
+	top: -400px;
+	width: 22.69%;
+	
+}
+
+.ação2 h2{
+	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
+	font-size: 1.56em;
+	color: #95989a;
+	font-style: normal;
+	line-height: 1.34em;
+	letter-spacing: 0em;
+}
+.ação3 h2 {
+	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
+	font-size: 1.56em;
+	color: #95989a;
+	font-style: normal;
+	line-height: 1.34em;
+	letter-spacing: 0em;
+}
