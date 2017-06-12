@@ -1,7 +1,7 @@
 body {
-	background-color: #fff;
-	display: flex;
-	width: 100%;
+	margin: 0;
+	padding: 0;
+	
 
 }
 
@@ -115,8 +115,8 @@ li {
 	background-color: #fff;
 	height: 65%;
 	width: 41.65%;
-	top: 680px;
-	left: 715px;
+	top: 630px;
+	left: 670px;
 	border-radius: 25px;
 	margin: 38px;
 
@@ -125,6 +125,7 @@ li {
 
 
 .sobre h1 {
+	
 	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
 	font-size: 1.88em;
 	color: #95989a;
@@ -134,19 +135,23 @@ li {
 	letter-spacing: 0em;
 	margin: 38px;
 
+
 	
 
 }
 
 .sobre p {
+	position: relative;
+	display: flex;
 	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
 	font-size: 0.88em;
 	color: #95989a;
 	font-style: normal;
 	text-align: left;
-	line-height: 1.4em;
+	line-height: 1.2em;
 	letter-spacing: 0em;
-	margin: 38px;
+	margin:38px;
+	top: -60px;
 
 }
 
@@ -155,7 +160,7 @@ li {
 }
 
 .ações h1 {
-
+	position: relative;
 	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
 	font-size: 1.88em;
 	color: #95989a;
@@ -163,15 +168,18 @@ li {
 	text-align: left;
 	line-height: 1.61em;
 	letter-spacing: 0em;
+	left: 50px;
 }
 
 .ação1 h2 {
+	position: relative;
 	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
 	font-size: 1.56em;
 	color: #95989a;
 	font-style: normal;
 	line-height: 1.34em;
 	letter-spacing: 0em;
+	left: 50px;
 }
 
 .ação1 img {
@@ -187,24 +195,93 @@ li {
 	position: relative;
 	display: flex;
 	top: -400px;
-	width: 22.69%;
+	left: 50px;
+	width: 30%;
+	line-height: 1.34em;
+
 	
 }
 
 .ação2 h2{
+	display: flex;
+	position: relative;
+	top: -150px;
+	left: -160px;
+	justify-content: flex-end;
 	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
 	font-size: 1.56em;
 	color: #95989a;
 	font-style: normal;
 	line-height: 1.34em;
 	letter-spacing: 0em;
+
 }
+
+.ação2 img{
+	position: relative;
+	top: -193px;
+	left: 600px;
+	
+}
+
+.ação2 p {
+	display: flex;
+	position: relative;
+	left: 600px;
+	top: -140px;
+	width: 40%;
+	line-height: 1.1em;
+
+
+}
+
+.ação3 video {
+	position: relative;
+	top: -865px;
+	left: 150px;
+}
+
 .ação3 h2 {
+	display: flex;
+	position: absolute;
+	top: -820px;
+	left: 140px;
 	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
 	font-size: 1.56em;
 	color: #95989a;
 	font-style: normal;
 	line-height: 1.34em;
 	letter-spacing: 0em;
-	background-color: 
+	
 }
+
+.ação3 p {
+	display: flex;
+	position: relative;
+	left: 150px;
+	top: -810px;
+	width: 40%;
+	line-height: 1.1em;
+
+}
+
+.fundo{
+	position: relative;
+	top: -750px;
+	width: 100%;
+
+
+}
+
+.contatos {
+	position: absolute;
+	width: 35%;
+	height: 50%;
+	top: 100%;
+	background-color: #fff;
+	border-radius: 25px;
+
+}
+
+
+
