@@ -277,11 +277,21 @@ li {
 	position: absolute;
 	width: 35%;
 	height: 50%;
-	top: 100%;
+	top: 3170px;
+	left: 830px;
 	background-color: #fff;
 	border-radius: 25px;
 
+
+
+}
+.contatos p{
+	line-height: 1.2em;
+
 }
 
-
-
+.p2{
+	position: relative;
+	left: 150px;
+	top: -60px;
+}
