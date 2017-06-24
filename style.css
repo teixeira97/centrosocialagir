@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	padding: 0;
 	
-
 }
 
 
@@ -265,6 +264,9 @@ li {
 
 }
 
+footer{
+	
+}
 .fundo{
 	position: relative;
 	top: -750px;
@@ -272,6 +274,7 @@ li {
 
 
 }
+
 
 .contatos {
 	position: absolute;
@@ -290,8 +293,12 @@ li {
 
 }
 
-.p2{
+footer .p2{
 	position: relative;
 	left: 150px;
 	top: -60px;
+	width: 30%;
 }
+
+
+
